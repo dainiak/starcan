@@ -1,11 +1,11 @@
-# Арканоид STARcan
+# STARcan arcanoid
 
-Скачать можно по [ссылке](https://github.com/dainiak/starcan/releases).
+[Download](https://github.com/dainiak/starcan/releases).
 
-Видео по [ссылке](https://youtu.be/S1KzJm4d1OE).
+[Video](https://youtu.be/S1KzJm4d1OE).
 
 ## arcan.exe
-Примитивный арканоид для DOS, написанный с использованием только стандартных возможностей Borland C++ за исключением процедур работы с мышью. Работает, например, в [DOSBox](http://www.dosbox.com/). Управление — мышью. При загрузке появляется заставка. Для того, чтобы начать игру, нажмите любую клавишу. Выйти из игры нельзя(!) до тех пор, пока не потеряете все мячи или не пройдете все уровни.
+A primitive arcanoid for DOS, developed using basic Borland C++ capabilities (with only exception of some assembly code for mouse support). Works under e.g. [DOSBox](http://www.dosbox.com/). Control using mouse. Press any key to start the game.
 
 ## lvleditr.exe
-При запуске укажите имя файла, который нужно открыть. Если хотите создать новый файл — просто нажмите `Enter`. В программе рисуйте уровень, как в PaintBrush'е. Нажатая левая кнопка мыши — рисование. Правая кнопка — ластик. При выходе из программы укажите файл, в который сохранять уровень. Имена файлов уровней — `<номер уровня>.sld`. Файлы должны находиться в директории программы `arcan.exe`
+Level editor for STARCan. When running provide the filename of the level. Press `Enter` to create a new file. Draw the blocks with the mouse. Press left mouse button to add blocks, right mouse button to erase. Upon exit provide the filename to save the level to. Standard filenames look like — `<level number>.sld`. The level files should reside in the same directory as `arcan.exe`
